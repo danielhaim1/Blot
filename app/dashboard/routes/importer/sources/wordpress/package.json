@@ -30,7 +30,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.11.1",
     "request": "^2.69.0",
-    "rimraf": "2.5.4",
+    "rimraf": "2.7.1",
     "single-line-log": "^1.1.2",
     "slug": "^0.9.1",
     "to-markdown": "^2.0.1",
