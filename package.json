@@ -35,7 +35,9 @@
   "scripts": {
     "test": "node tests",
     "start": "node app",
-    "local": "NODE_PATH=app node app/local"
+    "local": "NODE_PATH=app node app/local",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "version": "0.0.0",
   "dependencies": {
@@ -106,7 +108,8 @@
     "uglify-js": "^2.4.16",
     "uuid": "^3.2.1",
     "vhost": "^3.0.2",
-    "yaml": "2.0.0-5"
+    "yaml": "2.0.0-5",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "blessed": "^0.1.81",
@@ -118,5 +121,6 @@
     "minimist": "^1.2.6",
     "seedrandom": "^2.4.4",
     "spritesmith": "^3.4.0"
-  }
+  },
+  "snyk": true
 }
